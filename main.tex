@@ -1,0 +1,227 @@
+%-------------------------
+% Resume in Latex
+% Author : Aaqil Raj Krishna
+% Based off of: https://github.com/aaqilrk/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Aaqil Raj Krishna} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ \href{tel:919972522886}{\underline{+91 99725 22886}} ~ \href{mailto:aaqilrk@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{aaqilrk@gmail.com}} ~ 
+    \href{https://aaqilrk.hashnode.dev/}{\raisebox{-0.2\height}\faGlobe\ \underline{aaqilrk.hashnode.dev}}  ~
+    \href{https://www.linkedin.com/in/aaqil-krishna/}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+    \href{https://github.com/aaqilrk}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+     \href{https://leetcode.com/aaqilrk}{\raisebox{-0.2\height}\faCode\ \underline{LeetCode}} ~
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Amrita School of Engineering}{Oct. 2020 -- May 2024}
+      {Bachelor of Technology in Computer Science Engineering; \textbf{CGPA: 9.2/10.0}}{Bengaluru, India}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {GirlScript Summer of Code}{May 2023 -- August 2023}
+      {Open Source Contributor}{Remote}
+      \resumeItemListStart
+        \resumeItem{Chosen as an \textbf{Open Source Contributor} for the GirlScript Summer of Code 2023 initiative.}
+        \resumeItem{Involved in diverse web-based projects, adeptly developing back-ends using \textbf{Express}, \textbf{orchestrating and facilitating project-related community meetings}, and \textbf{authoring comprehensive project documentation.}}
+      \resumeItemListEnd
+      \resumeSubheading
+      {Ajiledone Technologies Pvt Ltd}{June 2022 -- August 2022}
+      {Software Developer Intern}{Remote}
+      \resumeItemListStart
+        \resumeItem{Created a dynamic and responsive company website's front-end using \textbf{HTML, CSS, and JavaScript}, and deployed it on \textbf{DigitalOcean} for seamless access.}
+        \resumeItem{Revitalized the client's website backend by refactoring and implementing new features with \textbf{Express.js and MongoDB}. Developed \textbf{RESTful APIs} to enable seamless communication with the front-end.}
+        \resumeItem{Contributed to a \textbf{weather predictive model}, focused on forecasting detailed weather reports for the next 30 days, by conducting data preprocessing. Leveraged \textbf{data analysis} techniques to extract meaningful insights.}
+        \resumeItem{Conducted statistical analysis of state-wise female education data using \textbf{NumPy and Pandas}, generating valuable insights to inform a government survey project.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Driving Behavior Classification} $|$ \emph{Python, NumPy, Pandas, Jupyter Notebook}}{\href{https://drive.google.com/file/d/1amb2g3hIKrMEGLnyRul-38z1Kxk2iqhz/view?usp=share_link}{\raisebox{-0.2\height}\ \underline{Paper}}}
+          \resumeItemListStart
+            \resumeItem{Classified drivers as normal or aggressive by applying machine learning algorithms to data generated by an \textbf{Android phone sensor}, making it useful for cab-sharing companies.}
+            \resumeItem{Preprocessed the data using techniques such as normalization, feature selection, and balancing, using libraries like \textbf{NumPy and Pandas}.}
+            \resumeItem{Created a classification model by implementing \textbf{logistic regression} with an \textbf{accuracy rate of 78\%}, providing valuable insights for the project stakeholders.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Online Bookstore} $|$ \emph{Node.js, Express.js, MySQL, Sequelize, Docker, EJS}}{\href{https://github.com/aaqilrk/pages}{\raisebox{-0.2\height}\ \underline{Github}}}
+          \resumeItemListStart
+            \resumeItem{Built a robust website that follows the \textbf{Model-View-Controller (MVC)} model, utilizing a \textbf{MySQL} database, \textbf{Node.js} server in the backend, and \textbf{EJS} for frontend rendering.}
+            \resumeItem{Implemented a comprehensive authentication and authorization system that utilizes both \textbf{local and OAuth passport} implementations, along with cookies and sessions.}
+            \resumeItem{Integrated \textbf{Sequelize} an ORM to establish a secure connection between the database and backend server, ensuring smooth data transactions.}
+            \resumeItem{Implemented \textbf{Noty.js} for web push notifications, enhancing the user experience and providing real-time updates.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Donation Website} $|$ \emph{HTML, CSS, JavaScript}}{\href{https://github.com/aaqilrk/caritas}{\raisebox{-0.2\height}\ \underline{Github}}}
+          \resumeItemListStart
+            \resumeItem{Designed and developed an engaging frontend for a donation website using \textbf{HTML, CSS, and JavaScript}.}
+            \resumeItem{Implemented a real-time map feature using \textbf{Google Maps API}, displaying donation centers and relevant information for easy access by users and deployed it using \textbf{GitHub Pages}.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, Scala, HTML/CSS, JavaScript} \\
+     \textbf{Technologies/Frameworks}{: Linux, Git, Github Actions, Docker, Express.js, React, MySQL} \\
+     \textbf{Developer Tools}{: VS Code, Jupyter Notebook, IntelliJ IDEA, Github} \\
+     
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Co-curricular}
+    % \resumeSubHeadingListStart
+    %     \resumeSubheading{Fraternity}{}{}{}
+    %         \resumeItemListStart
+    %             \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+    %             \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+    %             \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+    %         \resumeItemListEnd
+        
+    % \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+      \resumeItemListStart
+            \resumeItem{Published a series of informative \textbf{technical blogs} on diverse topics, such as Java architecture, Multithreading, Scala, and more, which can be accessed at \href{https://aaqilrk.hashnode.dev/}{\raisebox{-0.2\height}\faGlobe\ \textbf{\underline{aaqilrk.hashnode.dev}}}}
+            \resumeItem{Participated in all-India hackathon organised by \textbf{GE Healthcare}, showcasing problem-solving and technical skills.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\end{document}
